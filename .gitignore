@@ -11,4 +11,7 @@
 # private aws ec2 ssh key pair
 terraform-ssh-key-pair.cer
 
+# ignore crash logs
+crash.log
+
 notes.md
