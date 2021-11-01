@@ -7,3 +7,8 @@
 
 # tf variables files, mai include sensitive data
 *.tfvars
+
+# private aws ec2 ssh key pair
+terraform-ssh-key-pair.cer
+
+notes.md
