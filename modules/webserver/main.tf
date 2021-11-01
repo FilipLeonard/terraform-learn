@@ -97,7 +97,7 @@ resource "aws_instance" "myapp-server" {
   # but we want to make sure this instance ends up in our created VPC
   # and gets our defined security group
   subnet_id              = var.subnet_id
-  vpc_security_group_ids = [aws_default_security_group.myapp-default-sg.id]
+  vpc_security_group_ids = [aws_security_group.myapp-sg.id]
   availability_zone      = var.avail_zone
 
   # enable outside access into instance
